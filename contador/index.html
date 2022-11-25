@@ -1,0 +1,29 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador</title>
+  <link rel="preload" href="./assets/normalize.css" as="style">
+  <link rel="stylesheet" href="./assets/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&amp;display=swap" rel="stylesheet">
+  <link rel="style" href="./style.css" as="style">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="contenedor">
+      <div class="cont-contador">
+          <h1 class="contador-titulo">Contador</h1>
+          <h2 class="contador-numero" id="numero">0</h2>
+          <div class="contador__botones">
+              <button onclick="restamos()" class="contador__boton" id="botonRestar">Restar</button>
+              <button onclick="nuevo()" class="contador__boton" id="botonReset">Resetear </button>
+              <button onclick="incremente()" class="contador__boton" id="botonSumar">Sumar </button>
+          </div>
+      </div>
+  </div>
+
+  <script src="./main.js"></script>
+
+</body></html>

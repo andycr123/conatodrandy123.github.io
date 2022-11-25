@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+:root {
+    --1:#ebebeb;
+    --2:#35d5a8;
+    --3:#727f7f;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #727f7f;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1,h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.contenedor{
+    margin: 10rem auto 0;
+    width: min(120rem, 90%);
+}
+
+.contador-titulo{
+    font-size: 5rem;
+}
+
+.contador-numero {
+    font-size: 15rem;
+    color: #35d5a8;
+    margin: 10rem 0;
+}
+.contador__botones {
+    display:flex;
+    gap: 5rem;
+    margin: 10rem 0;
+    nav-left: 50rem;
+    justify-content: center;
+}
+
+.contador-botones {
+    background: none;
+    border-radius: 1rem;
+    border: 3px solid #ebebeb;
+    font-size: 3rem;
+    padding: 1rem 3rem;
+    transition: border .1s ease, color .1s ease;
+    cursor: pointer;
+}
+
+.conador-boton:hover {
+    border: 3px solid #ebebeb;
+    color: #35d5a8;
+}
+
+.contador-boton:active{
+    background-color: #000000;
+    border: 3px solid #ebebeb;
+    color: #35d5a8;
+}
